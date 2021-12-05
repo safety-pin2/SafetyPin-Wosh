@@ -1,9 +1,9 @@
 # SafetyPin-Wosh
 ### Hello guys!! Hope you all are doing great. We are team "Safety-Pin" participating in Women Online Safety Hackathon, organised by GDSC Johannesburg, South Africa. 
 #### Let me intoduce ourselves: 
-- Tanvy Bhola, a 3rd year computer engineering grad from Army Institute of Technology, Pune, India.
-- Floura, a student at WeThinkCode, Johannesburg, South Africa.
-- Bosisiwe, a code learning entusiast, Johannesburg, South Africa.
+- Tanvy Bhola, a 3rd year computer engineering grad from Army Institute of Technology, Pune, India 🇮🇳.
+- Floura, a student at WeThinkCode, Johannesburg, South Africa 🇿🇦.
+- Bosisiwe, a code learning enthusiast, Johannesburg, South Africa 🇿🇦.
 
 We worked on the problem statement Doxxing and came up with the solution of making a website that alerts people what is doxxing, what are the problems created by thus and what is the solution to it. 
 
