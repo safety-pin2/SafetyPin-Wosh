@@ -16,7 +16,7 @@ We worked on the problem statement Doxxing and came up with the solution of maki
 ## How to run this website on local host?? 🤔
 - Install vs code (if you haven't already)
 - Install git (if you haven't already)
-- Do some basic commands to set your github account with git, Follow this website to do it :-
+- Do some basic commands to set your github account with git, Follow this website to do it :- https://www.youtube.com/watch?v=9cMWR-EGFuY
 - Open VSCODE
 - open terminal
 - Clone project by git clone https://github.com/safety-pin2/SafetyPin-Wosh.git
