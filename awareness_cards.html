@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="theSlides">
+  <q>The term 'Doxing' or 'Doxxing' is short for "dropping dox" 'dox' 
+      being slang for documents. Typically, doxing is a malicious act</q>
+</div>
+
+<div class="theSlides">
+    <q>The kind of information that gathered can include full name, 
+        exact location, IP address, phone number, height, family members, work place, etc..</q>
+</div>
+
+<div class="theSlides">
+  <q>There have been stories about public figures being cyber-bullied, 
+      threatened, and doxxed, but that doesn’t mean that everyday civilians aren’t 
+      having their personal information gathered and released to various sites on the internet.</q>
+</div>
+
+<div class="theSlides">
+    <q> 
+        <p>Examples of doxing </p>
+        <p>The most common doxing situations tend to fall into these three categories: </p>
+        <li>Releasing an individual's private, personally identifying information online.</li>
+        <li>Revealing previously unknown information of a private person online</li>
+        <li>Releasing information of a private person online could be damaging 
+            to their reputation and those of their personal and/or professional associates</li>
+    </q>
+</div>
+
+<div class="theSlides">
+    <q>
+        <p>There are steps you can take to protect your information. These include: </p>
+        <p>Don’t overshare:
+            <li>Don’t overshare on social media or online forums and message boards. 
+                Sharing personal information could easily give doxers too much to work with.</li>
+         </p>
+         <p>Change your privacy settings: 
+             <li>Make your posts on social media sites private so that only select people can view them.</li>
+        </p>
+        <p>Protecting your IP address by using a VPN.
+            <li>A <a href="https://surfshark.com/learn/what-is-vpn">Virtual private network(VPN)</a> offers excellent protection against exposing IP addresses.
+             A VPN takes the user's internet traffic, encrypts it, and sends it through one of the service's 
+             servers before heading out to the public internet – allowing you to browse the internet anonymously.  
+            </li></p>
+        <p>Practice good cybersecurity.
+            <li><a href="https://www.usnews.com/360-reviews/antivirus">Anti-virus</a> and malware 
+                detection software can stop doxers from stealing information through malicious applications. 
+                Regularly updated software helps to prevent any security 'holes' that could lead to you being hacked and doxed.
+            </li></p>
+        <p>Use strong passwords.
+            <li>A strong password normally includes a combination of uppercase and lowercase letters, plus numbers and symbols. 
+            Avoid using the same password for multiple accounts, and make sure you change your passwords regularly. 
+            If you have problems remembering passwords, try using a password manager.</li>
+        </p>Set up Google alerts.
+        <li>You can set up Google alerts for your full name, phone number, home address, or other private data 
+            you are concerned about so you know if it suddenly appears online, it may mean you have been doxed.</li> 
+        </p>
+        <p>Ask Google to remove information.
+            <li>If personal information appears in Google search results, 
+                individuals can request its removal from the search engine. Google makes this a simple process through an online form. 
+                Many data brokers put this type of data online, usually for background checks or crime check information.</li>
+        </p>
+    </q>
+</div>
+
+<div class="theSlides">
+    <q> 
+        <p>What to do if you become a doxing victim: </p>
+        <p>Report it. <li>Report the attack to the platforms on which your personal information has been posted. 
+            Search the relevant platform's terms of service or community guidelines to determine their reporting process for this type of attack and follow it.
+            While filling a form out once, save it for the future (so you do not have to repeat yourself). 
+            This is the first step to stop the spread of your personal information</li> </p>
+        <p>Involve law enforcement. <li>If a doxer makes personal threats against you, 
+            contact your local police department. Any information pointing to your home address or financial information should be treated as a top priority, 
+            especially if there are credible threats attached.</li> </p>
+        <p>Protect your financial accounts. <li>If doxers have published your bank account or credit card numbers, 
+            report this immediately to your financial institutions(s). Your credit card provider will likely cancel your card and send you a new one. 
+            You will also need to change the passwords for your online bank and credit card accounts.</li> </p>
+    </q>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("theSlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
