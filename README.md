@@ -1,5 +1,5 @@
 # SafetyPin-Wosh
-### Hello guys!! Hope you all are doing great. We are team "Safety-Pin" participating in Women Online Safety Hackathon, organised by GDSC Johannesburg, South Africa. 
+### Hello guys!! Hope you all are doing great. We are team "Safety-Pin" participating in Women Online Safety Hackathon, organised by GDG Johannesburg, South Africa. 
 #### Let me intoduce ourselves: 
 - Tanvy Bhola, a 3rd year computer engineering grad from Army Institute of Technology, Pune, India 🇮🇳.
 - Floura, a student at WeThinkCode, Johannesburg, South Africa 🇿🇦.
